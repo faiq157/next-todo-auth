@@ -72,6 +72,15 @@ Start the server
 
 ![image](https://github.com/user-attachments/assets/7064ba79-febd-4543-96bc-61e9b5ac694d)
 
+## complexity 
+
+
+| Operation         | Code Example                          | Time Complexity | Reason                        |
+|------------------|---------------------------------------|------------------|-------------------------------|
+| Add Task         | `prisma.todo.create`                  | O(1)             | Direct DB insert              |
+| Delete Task      | `prisma.todo.delete`                  | O(1)             | Delete by indexed ID          |
+| Edit Task        | `prisma.todo.update`                  | O(1)             | Update by primary key         |
+| Get All Tasks    | `prisma.todo.findMany`                | O(n)             | Fetching list of tasks        |
 
 
 
