@@ -59,7 +59,8 @@ Start the server
 ```bash
   npm run dev
 ```
-
+## Deploy URL 
+https://todoappauth1.netlify.app/
 
 ## Screenshots
 
